@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Open+Sans');
+
+
+.board {
+	width: 400px;
+	margin: 20px auto;
+	font-family: Open Sans;
+}
+
+.board h2{
+	font-family: 'Berkshire Swash';
+	text-align: center;
+	font-size: 48px;
+}
+
+.submit-container {
+	margin-top: 30px;
+}
+
+.result-container {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.red {
+	color: #bb0100;
+}
+
+.blue {
+	color : #30314c;
+}
+
+
+.result-final {
+	font-family: 'Berkshire Swash';
+	font-size: 78px;
+	margin-top: 20px;
+}
+
+#guess {
+	border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 100px;
+    border-bottom: 2px solid black;
+   font-size: 34px;
+}
+
+
+.dark-blue, .medium-blue, .dark-red, .gold, .medium-red {
+	font-family: 'Berkshire Swash';
+	font-size: 64px;
+}
+
+.gold {
+	color: gold;
+}
+
+.dark-blue {
+	color: blue;
+}
+
+.medium-blue{
+	color: blue;
+	opacity: 0.5;
+}
+
+.dark-red {
+	color: red;
+}
+
+.medium-red {
+	color: red;
+	opacity: 0.5;
+}
+
+form {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+form label {
+	text-transform: uppercase;
+}
+
+
+form button {
+	background-color: black;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 220px;
+}
